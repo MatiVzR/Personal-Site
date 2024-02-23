@@ -1,0 +1,84 @@
+body {
+    background-image: linear-gradient( 99deg,  rgba(115,18,81,1) 10.6%, rgba(28,28,28,1) 118% );
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.container__logo {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    border-radius: 40px;
+    box-shadow: 3px 3px 20px rgb(0, 0, 0);
+    padding: 10px 40px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    text-shadow: 2px 4px 0.25px black;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    border-radius: 40px;
+    box-shadow: 3px 3px 20px rgb(0, 0, 0);
+    padding: 20px 60px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-shadow: 2px 2px 0.25px black;
+    margin: 25px;
+}
+
+.about__text {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.about__projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 20px;
+}
+
+.about__projects a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 0.6rem;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    box-shadow: 3px 3px 15px rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    max-width: 150px;
+    text-decoration: none;
+    color: white;
+}
+
+.about__projects a img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.about__projects a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 15px rgb(0, 0, 0);
+}
